@@ -1,11 +1,31 @@
+body {
+	background-color: #f1e8ca;
+}
+
 .navbar{
-	background-color: #000;
-	opacity: 0.7;
+	background-color: #bbcbdb;
+	opacity: 1;
 }
 
 .navbar-default .navbar-brand {
-    color: #fff;
+    color: #745151;
+    font-family: 'Share Tech Mono', monospace;
 }
 
+#bs-example-navbar-collapse-1 .navbar-nav li a{
+	color: #dd855c;
+}
 
-/*C3D938	772877	7C821E	D8B98B	7A4012*/
+.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:focus, .navbar-default .navbar-nav li a:hover {
+	background-color: #f1e8ca;
+}
+
+.jumbotron{
+	
+}
+
+/*#bbcbdb	(187,203,219)
+#9ebd9e	(158,189,158)
+#dd855c	(221,133,92)
+#f1e8ca	(241,232,202)
+#745151*/
