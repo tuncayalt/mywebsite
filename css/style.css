@@ -78,8 +78,8 @@
 	display: block;
 	border: 1px solid white;
 	position: absolute;
-	right: 30%;
-	left: 30%;
+	right: 25%;
+	left: 25%;
 	bottom: 30%;
 	text-align: center;
 	opacity: 0;
@@ -158,7 +158,7 @@
 }
 
 @media (max-width: 768px){
-	#div-logo, #name{
+	#div-logo{
 		margin-top: -70px;
 	}
 }
