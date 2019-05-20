@@ -37,24 +37,41 @@
 	opacity: 1;
 }
 
-#div-logo #name{
+.logo-pic {
+	margin-left: 30px;
+	opacity: 0;
+	-webkit-animation: fade-in 1s 1s forwards; /* Safari 4+ */
+	-moz-animation:    fade-in 1s 1s forwards; /* Fx 5+ */
+	-o-animation:      fade-in 1s 1s forwards; /* Opera 12+ */
+	animation:         fade-in 1s 1s forwards; /* IE 10+, Fx 29+ */
+}
+
+#name{
 	color: #ccc;
 	margin-top: -50px;
 	font-family: 'Source Sans Pro', sans-serif;
+	opacity: 0;
+	-webkit-animation: fade-in 0.5s 2s forwards; /* Safari 4+ */
+	-moz-animation:    fade-in 0.5s 2s forwards; /* Fx 5+ */
+	-o-animation:      fade-in 0.5s 2s forwards; /* Opera 12+ */
+	animation:         fade-in 0.5s 2s forwards; /* IE 10+, Fx 29+ */
 }
-#div-logo #profession{
+#profession{
 	color: #ccc;
+	opacity: 0;
+	-webkit-animation: fade-in 0.5s 2.5s forwards; /* Safari 4+ */
+	-moz-animation:    fade-in 0.5s 2.5s forwards; /* Fx 5+ */
+	-o-animation:      fade-in 0.5s 2.5s forwards; /* Opera 12+ */
+	animation:         fade-in 0.5s 2.5s forwards; /* IE 10+, Fx 29+ */
 }
-.logo-pic {
-	margin-left: 30px;
-}
+
 
 .social-links{
 	position: absolute;
 	bottom: 40%;
 	width: 100%;
 	text-align: center;
-	opacity: 1;
+	opacity: 0;
 }
 
 .down-arrow{
@@ -65,11 +82,18 @@
 	left: 30%;
 	bottom: 30%;
 	text-align: center;
-	opacity: 1;
+	opacity: 0;
 }
 
-.down-arrow:hover{
-	opacity: 0.4;
+.social-links, .down-arrow{
+	-webkit-animation: fade-in 0.5s 3s forwards; /* Safari 4+ */
+	-moz-animation:    fade-in 0.5s 3s forwards; /* Fx 5+ */
+	-o-animation:      fade-in 0.5s 3s forwards; /* Opera 12+ */
+	animation:         fade-in 0.5s 3s forwards; /* IE 10+, Fx 29+ */
+}
+
+.down-arrow:hover, .down-arrow:focus{
+	border: 1px solid gray;
 }
 
  /* Style all font awesome icons */
@@ -85,7 +109,7 @@
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
+.fa:hover .fa:focus{
 	opacity: 0.7;
 }
 
@@ -114,4 +138,27 @@
 }
 .fa-angle-down {
 	color: white;
+}
+
+@-webkit-keyframes fade-in {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes fade-in {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-o-keyframes fade-in {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes fade-in {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@media (max-width: 768px){
+	#div-logo, #name{
+		margin-top: -70px;
+	}
 }
