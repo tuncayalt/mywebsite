@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
 	<meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +30,8 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#section-about">About <span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="#section-home">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#section-about">About</a></li>
           <li><a href="#section-timeline">Timeline</a></li>
           <li><a href="#section-contact">Contact</a></li>
         </ul>
@@ -40,278 +41,353 @@
   </nav>
 <!-- </div> --><!-- /#section-navbar -->
 
-<div id="section-about">
-  <div id="jumbo-container">
-    <div id="img-jumbo" data-parallax="scroll" data-image-src="./images/dark-laptop.jpg" data-android-fix="true" data-ios-fix="true"> 
-    </div>
-    <div id="overlay-jumbo"></div>
-    <div id="div-logo">
-      <div class="logo-pic">
-          <img src="images/tuncaylogo-beyazyazi-kirmizi-arka.png" alt="logo">
+<div class="scrolling-box">
+  <section id="section-home">
+    <div id="jumbo-container">
+      <div id="img-jumbo" data-parallax="scroll" data-image-src="./images/dark-laptop.jpg" data-android-fix="true" data-ios-fix="true"> 
       </div>
-      <h1 id="name">Tuncay Altınpulluk</h1>
-      <h2 id="profession">Software Engineer / Full Stack Developer</h2>
-    </div>
-    <div class="social-links">
-      <a href="https://linkedin.com/in/tuncayaltinpulluk/" target="_blank" class="fa fa-linkedin"></a>
-      <a href="https://github.com/tuncayalt" target="_blank" class="fa fa-github"></a>
-      <a href="https://stackoverflow.com/users/4014106/tuncay-alt%C4%B1npulluk" target="_blank" class="fa fa-stack-overflow"></a>
-      <a href="https://www.facebook.com/tuncay.altinpulluk" target="_blank" class="fa fa-facebook"></a>
-      <a href="https://twitter.com/tuncay_alt" target="_blank" class="fa fa-twitter"></a>
-    </div>
-    <div class="down-arrow" onclick="window.location.href='#section-timeline'">
-      <i class="fa fa-angle-down"></i>
-    </div>
-  </div>
-</div>
-
-<div id="section-timeline" style="height: 40px; visibility: hidden;"></div>
-<h2 style="text-align: center;">My Timeline</h2>
-<div>
-    <!-- The Timeline -->
-
-  <ul class="timeline">
-
-    <!-- Item 1 -->
-    <li>
-      <div class="direction-r">
-        <div class="flag-wrapper">
-          <span class="flag">Moved to Cleveland, OH</span>
-          <span class="time-wrapper"><span class="time">May 2019</span></span>
+      <div id="overlay-jumbo"></div>
+      <div id="div-logo">
+        <div class="logo-pic">
+            <img src="images/tuncaylogo-beyazyazi-kirmizi-arka.png" alt="logo">
         </div>
-        <div class="desc">
-          Building pet projects, focused on <b>Deep Learning</b> and waiting for the work permit :)
-        </div>
+        <h1 id="name">Tuncay Altınpulluk</h1>
+        <h2 id="profession">Software Engineer / Full Stack Developer</h2>
       </div>
-    </li>
-
-    <!-- Item 2 -->
-    <li>
-      <div class="direction-l">
-        <div class="flag-wrapper">
-          <span class="flag">Crossover - Software Architect</span>
-          <span class="time-wrapper"><span class="time">December 2018 - April 2019</span></span>
-        </div>
-        <div class="desc">
-          I worked as an Independent Contractor in Engineering Code Cleanup division. As a 100% remote working company based in Austin Texas, Crossover has a very dynamic and fast-paced work environment with qualified engineers from all over the world. Our team is responsible for refactoring the code in the repositories of the customer companies, removing the anti-patterns and rewriting the code according to SOLID principles.
-I worked on the code repositories of Trilogy, GFI Languard, GFI Mail Archiver, VoltDelta, Aurea Energy Solutions with a FTAR of 100% (FTAR: First Time Acceptance Rate, a quality metric which measures the rate of merged pull requests without any rejection from the customer).
-        </div>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/tuncayaltinpulluk/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://github.com/tuncayalt" target="_blank" class="fa fa-github"></a>
+        <a href="https://stackoverflow.com/users/4014106/tuncay-alt%C4%B1npulluk" target="_blank" class="fa fa-stack-overflow"></a>
+        <a href="https://www.facebook.com/tuncay.altinpulluk" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/tuncay_alt" target="_blank" class="fa fa-twitter"></a>
       </div>
-    </li>
-
-    <!-- Item 3 -->
-    <li>
-      <div class="direction-r">
-        <div class="flag-wrapper">
-          <span class="flag">TumBot - personal project</span>
-          <span class="time-wrapper"><span class="time">March - April 2018</span></span>
-        </div>
-        <div class="desc">
-          A Python application as an autonomous bot in Tumblr. According to the given keyword list, the bot user can perform functions like searching users and posts, creating reposts, following other users, etc. The purpose is to mimic human behavior and increase the number of followers and posts of the user (Python, Selenium).
-        </div>
+      <div class="down-arrow" onclick="window.location.href='#section-about'">
+        <i class="fa fa-angle-down"></i>
       </div>
-    </li>
+    </div>
+  </section>
+
+  <section id="section-about">
+    <div style="height: 40px; visibility: hidden;"></div>
     
-    
-    <!-- Item 4 -->
-    <li>
-      <div class="direction-l">
-        <div class="flag-wrapper">
-          <span class="flag">Super Lottery Lucky Numbers - personal project</span>
-          <span class="time-wrapper"><span class="time">June - July 2017</span></span>
+    <div class="about container-fluid">
+      <h2 style="text-align: center;">About Me</h2>
+      <hr/>
+      <div class="row">
+        <div class="about-image col-sm-6">
+          <img src="images/bosphorus.jpg" alt="Tuncay and Ece in Istanbul">
         </div>
-        <div class="desc">
-          An Android application for saving lottery coupons and sending the results via push notification (Java / Android, ASP.NET Core Web API, IBM Bluemix, Realm DB, Retrofit, Firebase Push Notification).
-          <br>
-          <a href="https://play.google.com/store/apps/details?id=com.tuncay.superlotteryluckynumbers">Google Play</a>, 
-          <a href="https://github.com/tuncayalt/SuperLotteryLuckyNumbersServer" >Github server code</a>, 
-          <a href="https://github.com/tuncayalt/SuperLotteryLuckyNumbers" >Github android code</a>
-        </div>
-      </div>
-    </li>
-
-    <!-- Item 5 -->
-    <li>
-      <div class="direction-r">
-        <div class="flag-wrapper">
-          <span class="flag">Bogazici University</span>
-          <span class="time-wrapper"><span class="time">September 2013 - January 2016</span></span>
-        </div>
-        <div class="desc">
-          M.Sc. on Software Engineering (3rd in department, 3.77/4.00 GPA).
+        <div class="about-text col-sm-6">
+          <br/>
+          <p>Hi, I am Tuncay. I am a software developer enthusiast.</p>
+          <p>I have 11 years of experience in full software development lifecycle. I am designing and implementing innovative and customizable software solutions. I have expertise in advanced development processes.</p>
+          <p>I have 8 years of experience in object-oriented analysis, design and development in multiple technology stacks.</p>
+          <p>Excellent problem solving and mentoring skills in troublesome situations.</p>
+          <p>An enthusiast in best practices and clean code in software development. I always enjoy applying SOLID principles, design patterns, unit testing and automation to my work.</p>
+          <p><a href="#section-timeline">Click for timeline</a></p>
         </div>
       </div>
-    </li>
+    </div>
+  </section>
 
-    <!-- Item 6 -->
-    <li>
-      <div class="direction-l">
-        <div class="flag-wrapper">
-          <span class="flag">Traffic Monster - homework project</span>
-          <span class="time-wrapper"><span class="time">September 2015 - January 2016</span></span>
-        </div>
-        <div class="desc">
-          An iOS application for catching traffic violations. Customers can record the traffic violations and send the recordings to the authorities easily. I designed and developed the application as homework in Bogazici University (Swift).
-        </div>
-      </div>
-    </li>
+  <section id="section-timeline">
+    <div style="height: 40px; visibility: hidden;"></div>
+    <h2 style="text-align: center;">My Timeline</h2>
+    <hr/>
+    <div>
+        <!-- The Timeline -->
 
-    <!-- Item 6 -->
-    <li>
-      <div class="direction-r">
-        <div class="flag-wrapper">
-          <span class="flag">Timeout - homework project</span>
-          <span class="time-wrapper"><span class="time">February - May 2015</span></span>
-        </div>
-        <div class="desc">
-          A social network for Bogazici University Department of Computer Engineering academicians and students that provides users to create, join and attend groups and events, add friends and get recommendations based on semantic tagging from web and mobile clients. I developed the back-end part of the project with Java and Hibernate technologies (Java, Google Cloud, Hibernate, Spring Framework, Angular, Android Studio).
-        </div>
-      </div>
-    </li>
+      <ul class="timeline">
 
-    <!-- Item 7 -->
-    <li>
-      <div class="direction-l">
-        <div class="flag-wrapper">
-          <span class="flag">Softtech - Software Architect</span>
-          <span class="time-wrapper"><span class="time">April 2015 - November 2018</span></span>
-        </div>
-        <div class="desc">
-          <p>I worked in Internet and Mobile Banking division. I was the technical lead for Digital Banking Security back-end team. Our team was designing and developing RESTful Web API services in a high-traffic and multi-threaded environment. Softtech is the software company of Isbank. Isbank is the biggest bank in Turkey with more than 6 million active internet and mobile banking customers.</p>
-          <p><b>MicroSapphire project:</b> Technical lead of the Microservices Technology Research Group. Doing research about Microservices and Message Based Programming. Developing a small microservices version of a big monolithic domain called Sapphire (ASP.NET Core Web API, RabbitMq, Docker, Kubernetes, Azure Serverless, MongoDb).</p>
-          <p><b>Carduino project:</b> Technical lead of the winner team “Analog” in #SofttechHackathon4 – The Internet of Things. An Arduino based robot car is assembled and programmed to calculate scores for its driver (Arduino, Android programming, Javascript, ASP.NET Web API, IBM Bluemix).</p>
-          <p><b>Karinca project:</b> IT infrastructure modernization for Isbank. Our team moves digital banking limits and back-end customer security data from IBM mainframe to relational DB2 database. The legacy code written in Cobol are being rewritten in C# with unit tests. I am the technical lead for the team consisting of 7 developers. We use Kanban Software Development Process in this project. (.NET WCF, ASP.NET Web API, IBM DB2).</p>
-        </div>
-      </div>
-    </li>
+        <!-- Item 1 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">Moved to Cleveland, OH</span>
+              <span class="time-wrapper"><span class="time">May 2019</span></span>
+            </div>
+            <div class="desc">
+              Building pet projects, focused on <b>Deep Learning</b> and waiting for the work permit :)
+            </div>
+          </div>
+        </li>
 
-    <!-- Item 7 -->
-    <li>
-      <div class="direction-r">
-        <div class="flag-wrapper">
-          <span class="flag">SweGammon - personal project</span>
-          <span class="time-wrapper"><span class="time">March - April 2015</span></span>
-        </div>
-        <div class="desc">
-          <p>A multiplayer backgammon game. Users can both play or watch backgammon games. Client-server architecture is used. I designed and developed the application as homework in Bogazici University (Python socket programming).</p>
-            <a href="https://github.com/tuncayalt/SweGammon">Github code</a>
-        </div>
-      </div>
-    </li>
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Crossover - Software Architect</span>
+              <span class="time-wrapper"><span class="time">December 2018 - April 2019</span></span>
+            </div>
+            <div class="desc">
+              I worked as an Independent Contractor in Engineering Code Cleanup division. As a 100% remote working company based in Austin Texas, Crossover has a very dynamic and fast-paced work environment with qualified engineers from all over the world. Our team is responsible for refactoring the code in the repositories of the customer companies, removing the anti-patterns and rewriting the code according to SOLID principles.
+    I worked on the code repositories of Trilogy, GFI Languard, GFI Mail Archiver, VoltDelta, Aurea Energy Solutions with a FTAR of 100% (FTAR: First Time Acceptance Rate, a quality metric which measures the rate of merged pull requests without any rejection from the customer).
+            </div>
+          </div>
+        </li>
 
-    <!-- Item 7 -->
-    <li>
-      <div class="direction-l">
-        <div class="flag-wrapper">
-          <span class="flag">One Second Math - personal project</span>
-          <span class="time-wrapper"><span class="time">July - August 2014</span></span>
-        </div>
-        <div class="desc">
-          <p>An Android game, which players should solve simple math problems in 1 second (Java / Android).</p> 
-          <a href="https://play.google.com/store/apps/details?id=com.tuncay.onesecondmath">Google Play</a>,
-          <a href="https://github.com/tuncayalt/OneSecondMath">Github code</a>
+        <!-- Item 3 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">TumBot - personal project</span>
+              <span class="time-wrapper"><span class="time">March - April 2018</span></span>
+            </div>
+            <div class="desc">
+              A Python application as an autonomous bot in Tumblr. According to the given keyword list, the bot user can perform functions like searching users and posts, creating reposts, following other users, etc. The purpose is to mimic human behavior and increase the number of followers and posts of the user (Python, Selenium).
+            </div>
+          </div>
+        </li>
+        
+        
+        <!-- Item 4 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Super Lottery Lucky Numbers - personal project</span>
+              <span class="time-wrapper"><span class="time">June - July 2017</span></span>
+            </div>
+            <div class="desc">
+              An Android application for saving lottery coupons and sending the results via push notification (Java / Android, ASP.NET Core Web API, IBM Bluemix, Realm DB, Retrofit, Firebase Push Notification).
+              <br>
+              <a href="https://play.google.com/store/apps/details?id=com.tuncay.superlotteryluckynumbers">Google Play</a>, 
+              <a href="https://github.com/tuncayalt/SuperLotteryLuckyNumbersServer" >Github server code</a>, 
+              <a href="https://github.com/tuncayalt/SuperLotteryLuckyNumbers" >Github android code</a>
+            </div>
+          </div>
+        </li>
 
-        </div>
-      </div>
-    </li>
+        <!-- Item 5 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">Bogazici University</span>
+              <span class="time-wrapper"><span class="time">September 2013 - January 2016</span></span>
+            </div>
+            <div class="desc">
+              M.Sc. on Software Engineering (3rd in department, 3.77/4.00 GPA).
+            </div>
+          </div>
+        </li>
 
-    <!-- Item 7 -->
-    <li>
-      <div class="direction-r">
-        <div class="flag-wrapper">
-          <span class="flag">Dragon vs Planes - personal project</span>
-          <span class="time-wrapper"><span class="time">November - December 2012</span></span>
-        </div>
-        <div class="desc">
-          <p>An arcade Android game, which players shoot various planes with a dragon (Java / Android).</p> 
-          <a href="https://play.google.com/store/apps/details?id=com.tuncay.dragonvsplanes">Google Play</a>,
-          <a href="https://github.com/tuncayalt/DragonVsPlanes">Github code</a>
-        </div>
-      </div>
-    </li>
+        <!-- Item 6 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Traffic Monster - homework project</span>
+              <span class="time-wrapper"><span class="time">September 2015 - January 2016</span></span>
+            </div>
+            <div class="desc">
+              An iOS application for catching traffic violations. Customers can record the traffic violations and send the recordings to the authorities easily. I designed and developed the application as homework in Bogazici University (Swift).
+            </div>
+          </div>
+        </li>
 
-    <!-- Item 7 -->
-    <li>
-      <div class="direction-l">
-        <div class="flag-wrapper">
-          <span class="flag">Softtech - Software Engineer</span>
-          <span class="time-wrapper"><span class="time">April 2011 - April 2015</span></span>
-        </div>
-        <div class="desc">
-          <p>I worked as a software team member in Alternative Distribution Channels back-end team. Our team was designing and developing back-end WCF services in a high-traffic and multi-threaded environment.</p>
-          <p><b>Mesken project:</b> A house decision support system. By web crawling/scraping, real-estate data is taken from various web sites to MS-SQL database. Customers can sort and display the houses according to the combination of price, location and size criteria. My hackathon team in Softtech designed the prototype. I developed the final product and wrote an article for Bogazici University (ASP.NET MVC). <a href="http://ab.org.tr/ab16/bildiri/374.pdf">Article link</a></p>
-          <p><b>Social Account project:</b> A mobile application for organizing activities and sharing money between friends. Back-end service was designed and implemented (.NET WCF, IBM DB2).</p>
-        </div>
-      </div>
-    </li>
+        <!-- Item 7 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">Timeout - homework project</span>
+              <span class="time-wrapper"><span class="time">February - May 2015</span></span>
+            </div>
+            <div class="desc">
+              A social network for Bogazici University Department of Computer Engineering academicians and students that provides users to create, join and attend groups and events, add friends and get recommendations based on semantic tagging from web and mobile clients. I developed the back-end part of the project with Java and Hibernate technologies (Java, Google Cloud, Hibernate, Spring Framework, Angular, Android Studio).
+            </div>
+          </div>
+        </li>
 
-    <!-- Item 7 -->
-    <li>
-      <div class="direction-r">
-        <div class="flag-wrapper">
-          <span class="flag">Isbank - Software Specialist</span>
-          <span class="time-wrapper"><span class="time">January 2007 - April 2011</span></span>
-        </div>
-        <div class="desc">
-          <p>I worked in Interactive Banking and Customer Department. I experienced customer-focused structural transformation in banking processes. Isbank is the biggest bank in Turkey with more than 6 million active Internet and Mobile Banking customers.</p> 
-          <p><b>Weekly Payment project:</b> A batch application for sending weekly payment e-mails for Isbank customers. Our team in Isbank developed this application. Now, our team in Softtech is dealing with the maintenance of the application (Java Spring Batch Framework).</p>
-        </div>
-      </div>
-    </li>
+        <!-- Item 8 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Softtech - Software Architect</span>
+              <span class="time-wrapper"><span class="time">April 2015 - November 2018</span></span>
+            </div>
+            <div class="desc">
+              <p>I worked in Internet and Mobile Banking division. I was the technical lead for Digital Banking Security back-end team. Our team was designing and developing RESTful Web API services in a high-traffic and multi-threaded environment. Softtech is the software company of Isbank. Isbank is the biggest bank in Turkey with more than 6 million active internet and mobile banking customers.</p>
+              <p><b>MicroSapphire project:</b> Technical lead of the Microservices Technology Research Group. Doing research about Microservices and Message Based Programming. Developing a small microservices version of a big monolithic domain called Sapphire (ASP.NET Core Web API, RabbitMq, Docker, Kubernetes, Azure Serverless, MongoDb).</p>
+              <p><b>Carduino project:</b> Technical lead of the winner team “Analog” in #SofttechHackathon4 – The Internet of Things. An Arduino based robot car is assembled and programmed to calculate scores for its driver (Arduino, Android programming, Javascript, ASP.NET Web API, IBM Bluemix).</p>
+              <p><b>Karinca project:</b> IT infrastructure modernization for Isbank. Our team moves digital banking limits and back-end customer security data from IBM mainframe to relational DB2 database. The legacy code written in Cobol are being rewritten in C# with unit tests. I am the technical lead for the team consisting of 7 developers. We use Kanban Software Development Process in this project. (.NET WCF, ASP.NET Web API, IBM DB2).</p>
+            </div>
+          </div>
+        </li>
 
-    <!-- Item 7 -->
-    <li>
-      <div class="direction-l">
-        <div class="flag-wrapper">
-          <span class="flag">Istanbul Commerce University - Research Assistant</span>
-          <span class="time-wrapper"><span class="time">September 2004 - December 2006</span></span>
-        </div>
-        <div class="desc">
-          <p>I worked in Industrial Engineering Department. </p> 
-          <p><b>Research areas:</b> Management information systems, databases.</p>
-        </div>
-      </div>
-    </li>
+        <!-- Item 9 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">SweGammon - personal project</span>
+              <span class="time-wrapper"><span class="time">March - April 2015</span></span>
+            </div>
+            <div class="desc">
+              <p>A multiplayer backgammon game. Users can both play or watch backgammon games. Client-server architecture is used. I designed and developed the application as homework in Bogazici University (Python socket programming).</p>
+                <a href="https://github.com/tuncayalt/SweGammon">Github code</a>
+            </div>
+          </div>
+        </li>
 
-    <li>
-      <div class="direction-r">
-        <div class="flag-wrapper">
-          <span class="flag">Istanbul Bilgi University</span>
-          <span class="time-wrapper"><span class="time">September 2004 - June 2006</span></span>
-        </div>
-        <div class="desc">
-          <p>M.Sc. on Economics</p> 
-        </div>
-      </div>
-    </li>
+        <!-- Item 10 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">One Second Math - personal project</span>
+              <span class="time-wrapper"><span class="time">July - August 2014</span></span>
+            </div>
+            <div class="desc">
+              <p>An Android game, which players should solve simple math problems in 1 second (Java / Android).</p> 
+              <a href="https://play.google.com/store/apps/details?id=com.tuncay.onesecondmath">Google Play</a>,
+              <a href="https://github.com/tuncayalt/OneSecondMath">Github code</a>
 
-    <li>
-      <div class="direction-l">
-        <div class="flag-wrapper">
-          <span class="flag">Middle East Technical University</span>
-          <span class="time-wrapper"><span class="time">September 1997 - January 2003</span></span>
-        </div>
-        <div class="desc">
-          <p>B.Sc. on Industrial Engineering</p> 
-        </div>
-      </div>
-    </li>
+            </div>
+          </div>
+        </li>
 
-  </ul>
+        <!-- Item 11 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">Dragon vs Planes - personal project</span>
+              <span class="time-wrapper"><span class="time">November - December 2012</span></span>
+            </div>
+            <div class="desc">
+              <p>An arcade Android game, which players shoot various planes with a dragon (Java / Android).</p> 
+              <a href="https://play.google.com/store/apps/details?id=com.tuncay.dragonvsplanes">Google Play</a>,
+              <a href="https://github.com/tuncayalt/DragonVsPlanes">Github code</a>
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 12 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Softtech - Software Engineer</span>
+              <span class="time-wrapper"><span class="time">April 2011 - April 2015</span></span>
+            </div>
+            <div class="desc">
+              <p>I worked as a software team member in Alternative Distribution Channels back-end team. Our team was designing and developing back-end WCF services in a high-traffic and multi-threaded environment.</p>
+              <p><b>Mesken project:</b> A house decision support system. By web crawling/scraping, real-estate data is taken from various web sites to MS-SQL database. Customers can sort and display the houses according to the combination of price, location and size criteria. My hackathon team in Softtech designed the prototype. I developed the final product and wrote an article for Bogazici University (ASP.NET MVC). <a href="http://ab.org.tr/ab16/bildiri/374.pdf">Article link</a></p>
+              <p><b>Social Account project:</b> A mobile application for organizing activities and sharing money between friends. Back-end service was designed and implemented (.NET WCF, IBM DB2).</p>
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 13 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">Isbank - Software Specialist</span>
+              <span class="time-wrapper"><span class="time">January 2007 - April 2011</span></span>
+            </div>
+            <div class="desc">
+              <p>I worked in Interactive Banking and Customer Department. I experienced customer-focused structural transformation in banking processes. Isbank is the biggest bank in Turkey with more than 6 million active Internet and Mobile Banking customers.</p> 
+              <p><b>Weekly Payment project:</b> A batch application for sending weekly payment e-mails for Isbank customers. Our team in Isbank developed this application. Now, our team in Softtech is dealing with the maintenance of the application (Java Spring Batch Framework).</p>
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 14 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Istanbul Commerce University - Research Assistant</span>
+              <span class="time-wrapper"><span class="time">September 2004 - December 2006</span></span>
+            </div>
+            <div class="desc">
+              <p>I worked in Industrial Engineering Department. </p> 
+              <p><b>Research areas:</b> Management information systems, databases.</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">Istanbul Bilgi University</span>
+              <span class="time-wrapper"><span class="time">September 2004 - June 2006</span></span>
+            </div>
+            <div class="desc">
+              <p>M.Sc. on Economics</p> 
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Middle East Technical University</span>
+              <span class="time-wrapper"><span class="time">September 1997 - January 2003</span></span>
+            </div>
+            <div class="desc">
+              <p>B.Sc. on Industrial Engineering</p> 
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <section id="section-contact">
+    <div style="height: 40px; visibility: hidden;"></div>
+    <h2 style="text-align: center;">Contact</h2>
+    <hr/>
+    <div class="contact-form">
+      <form action="https://formspree.io/tuncayalt@gmail.com" method="POST">
+        <div class="form-group">
+          <label for="yourName">Your name</label>
+          <input type="text" name="name" class="form-control" id="yourName" aria-describedby="emailHelp" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="yourEmail">Your email</label>
+          <input type="email" name="email" class="form-control" id="yourEmail" aria-describedby="emailHelp" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="yourMessage">Your message</label>
+          <textarea name="message" placeholder="Your message" class="form-control" id="yourMessage" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
 </div>
+<hr/>
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
 
-<div id="section-contact" style="height: 40px; visibility: hidden;"></div>
-<h2 style="text-align: center;">Contact</h2>
-<div>
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
   
-</div>
-
-
+      <!-- Grid row -->
+      <div class="row">
+  
+        <div class="col-sm-12">
+          <a href="https://linkedin.com/in/tuncayaltinpulluk/" target="_blank" class="fa fa-linkedin"></a>
+          <a href="https://github.com/tuncayalt" target="_blank" class="fa fa-github"></a>
+          <a href="https://stackoverflow.com/users/4014106/tuncay-alt%C4%B1npulluk" target="_blank" class="fa fa-stack-overflow"></a>
+          <a href="https://www.facebook.com/tuncay.altinpulluk" target="_blank" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/tuncay_alt" target="_blank" class="fa fa-twitter"></a>
+        </div>
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      © 2019 Copyright: Tuncay Altinpulluk
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/parallax.min.js"></script>
-<script src="js/script.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

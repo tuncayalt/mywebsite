@@ -99,6 +99,10 @@
 	border: 1px solid gray;
 }
 
+.scrolling-box {
+	scroll-behavior: smooth;
+}
+
  /* Style all font awesome icons */
 .fa {
 	padding: 10px;
@@ -143,6 +147,19 @@
 	color: white;
 }
 
+.about {
+	width: 90%;
+}
+
+.about-image img{
+	height: 100%; 
+	width: 100%; 
+	object-fit: contain;
+}
+
+.about-text p{
+	font-size: 16px;
+}
 
 .timeline {
 	position: relative;
@@ -383,7 +400,10 @@
 	}
   }
   
-
+.contact-form{
+	margin: 0 auto;
+    width:60%;
+}
 
 @-webkit-keyframes fade-in {
 	0%   { opacity: 0; }
