@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+html { 
+	scroll-behavior: smooth; 
+} 
+
 .navbar.center .navbar-collapse {
     text-align: center;
 }
@@ -145,6 +149,15 @@
 }
 .fa-angle-down {
 	color: white;
+}
+
+.scroll-offset{
+	visibility: hidden;
+	height: 40px;
+}
+
+.section-header{
+	text-align: center;
 }
 
 .about {
