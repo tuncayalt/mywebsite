@@ -20,3 +20,5 @@ $(document).ready(function() {
         /*add as necessary*/
     }
 });
+
+document.getElementById("copy-year").innerHTML = (new Date().getFullYear());
